@@ -1,0 +1,11 @@
+14:51:53 **** Incremental Build of configuration Debug for project 24_Overload Operators ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In member function 'void Complex::input(std::__cxx11::string)':
+..\src\main.cpp:25:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         while(i<s.length())
+               ~^~~~~~~~~~~
+g++ -o "24_Overload Operators.exe" "src\\main.o" 
+
+14:51:54 Build Finished (took 916ms)
+

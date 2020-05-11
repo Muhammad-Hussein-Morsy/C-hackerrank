@@ -1,0 +1,5 @@
+20:16:33 **** Clean-only build of configuration Debug for project 01_Input and Output ****
+rm -rf src/main.o src/main.d "01_Input and Output.exe" 
+
+20:16:33 Build Finished (took 90ms)
+

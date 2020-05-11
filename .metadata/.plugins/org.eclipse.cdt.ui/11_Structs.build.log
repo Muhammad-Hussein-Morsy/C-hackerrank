@@ -1,0 +1,7 @@
+00:48:00 **** Incremental Build of configuration Debug for project 11_Structs ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o 11_Structs.exe "src\\main.o" 
+
+00:48:01 Build Finished (took 965ms)
+

@@ -1,0 +1,55 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <set>
+#include <map>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+	std:: map <string, int> map1;
+	unsigned int q,element,val;
+	string key;
+	map<string,int>::iterator itr;
+
+	cin>>q;
+	for(unsigned int i=0;i<q;i++)
+	{
+		cin>>element;
+		cin>>key;
+		if(element==1)
+		{
+			cin>>val;
+			map1.insert(make_pair(key,val));
+		}
+		else if (element==2)
+		{
+			map1.erase(key);
+		}
+		else if (element==3)
+		{
+			itr=map1.find(key);
+			if(itr!=map1.end())
+			{
+				int final;
+				for(map<int,int>::iterator it = m.begin(); it != m.end(); ++it) {
+				  v.push_back(it->first);
+				  cout << it->first << "\n";
+				}
+				cout<<itr->second<<endl;
+			}
+			else
+			{
+				cout<<0<<endl;
+			}
+		}
+
+	}
+    return 0;
+}
+
+
+

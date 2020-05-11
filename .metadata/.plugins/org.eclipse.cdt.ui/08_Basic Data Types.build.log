@@ -1,0 +1,13 @@
+01:05:53 **** Incremental Build of configuration Debug for project 08_Basic Data Types ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:17:46: warning: unknown conversion type character '.' in format [-Wformat=]
+   scanf("%d %ld %c %.3f %.9lf",&i,&l,&c,&f,&d);
+                                              ^
+..\src\main.cpp:17:46: warning: unknown conversion type character '.' in format [-Wformat=]
+..\src\main.cpp:17:46: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o "08_Basic Data Types.exe" "src\\main.o" 
+
+01:05:55 Build Finished (took 1s.265ms)
+

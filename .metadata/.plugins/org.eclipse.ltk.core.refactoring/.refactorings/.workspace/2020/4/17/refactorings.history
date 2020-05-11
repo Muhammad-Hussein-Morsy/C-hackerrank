@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;00_SayHello,World!WithC++2&apos; to &apos;01_Input and Output&apos;" description="Rename resource &apos;00_SayHello,World!WithC++2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/00_SayHello,World!WithC++2" name="01_Input and Output" stamp="1587665177516" updateReferences="true"/>
+</session>

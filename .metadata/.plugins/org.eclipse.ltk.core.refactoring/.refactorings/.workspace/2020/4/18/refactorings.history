@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;09_Attribute_Parser&apos; to &apos;09_StringStream&apos;" description="Rename resource &apos;09_Attribute_Parser&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/09_Attribute_Parser" name="09_StringStream" stamp="1588116364812" updateReferences="true"/>
+</session>
